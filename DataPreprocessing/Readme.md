@@ -1,0 +1,1 @@
+"Data" dataset contains a retail company's data to predict whether or not a customer buys the product
