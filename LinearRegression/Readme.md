@@ -1,0 +1,1 @@
+The Salary_Data dataset contains the data of some retail company that tells whether or nor a client purchased their product based on certain factors
