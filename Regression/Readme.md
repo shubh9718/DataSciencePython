@@ -1,0 +1,9 @@
+Note: Linear Regression Assumptions:
+
+1) Violations of linearity or non-additivity(If we fit our linear model to a non-linear data, errors will be encountered. Observed vs predicted or residual vs predicted value plot can diagnose this problem. Residuals versus Individual independent variables plot can reveal this in multiple linear regression).
+
+2) Violation of Independence(Serial correlation. Can be a result of violation of linearity. Can also happen when a model overpredicts or underpredicts under a certain condition. Can be found by looking at residuals versus independent variables plot in non-time series data or residual time series plot in time series data. For non time series data the residuals should be randomly and symmetrically distributed around zero under all conditions, and in particular there should be no correlation between consecutive errors no matter how the rows are sorted, as long as it is on some criterion that does not involve the dependent variable.)
+
+3) Violations of homoscedasticity(Results in too wide or too narrow confidence intervals. If the variance of the errors is increasing over time, confidence intervals for out-of-sample predictions will tend to be unrealistically narrow. It may have effect of being focussed on a small subset of data. Residual vs predicted or residual vs time series plot can diagnost for this.)
+
+4) Violation of Normality(Few large outliers can skew our distribution. Since we minimize squared error, outliers can make parameters disproportionate. Does not have effect in most cases of prediction. Can be diagnosed by a normal distribution curve.)
