@@ -1,0 +1,1 @@
+Random forest uses average of predictions of specified number of decision trees
