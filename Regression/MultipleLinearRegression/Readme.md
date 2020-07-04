@@ -9,3 +9,5 @@ Methods of building models:
 3) Forward Selection.
 4) Bidirectional Elimination(Select SL to enter and SL to stay in model->new variables must have p<SLEnter to entere model->Perform all steps of backward elimination(old variables must have p<SLStay to stay->go to step 2->No new variables can enter and no old can exit->Finish)
 5) Score Comparison
+
+Note: Backward elimination can be easily implemented with statsmodels library
